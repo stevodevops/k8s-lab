@@ -1,2 +1,3 @@
 message: "PROD environment"
 replicas: 3
+imageTag: "1.29"
