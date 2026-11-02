@@ -1,0 +1,9 @@
+replicas: 1
+imageTag: "1.28"
+message: "Hello from the web chart"
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    memory: 128Mi
