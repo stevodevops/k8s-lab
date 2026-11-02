@@ -1,3 +1,6 @@
 message: "DEV environment"
 replicas: 1
 imageTag: "1.29"
+route:
+  enabled: true
+  host: dev.localtest.me
