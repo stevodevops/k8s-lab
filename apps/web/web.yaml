@@ -33,7 +33,7 @@ spec:
             memory: 128Mi
         readinessProbe:
           httpGet:
-            path: /
+            path: /broken
             port: 80
           periodSeconds: 5
         livenessProbe:
