@@ -1,5 +1,5 @@
 message: "PROD environment"
-replicas: 3
+replicas: three
 imageTag: "1.29"
 route:
   enabled: true
